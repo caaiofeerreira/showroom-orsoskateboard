@@ -241,6 +241,14 @@ ul{
   color: #f0f0f025;
 }
 
+@media (max-width: 1280px){
+  .section-colecao-titulo::before,
+  .section-sobre-titulo::before,
+  .footer-titulo::before{
+    width: 100%;
+  }
+}
+
 @media (max-width: 1080px) {
   .introducao h1 {
     font-size: 5rem;
@@ -257,17 +265,15 @@ ul{
     right: 280px;
     bottom: 11px;
   }
-  .section-colecao-titulo::before,
-  .section-sobre-titulo::before,
-  .footer-titulo::before{
-    width: 100%;
-  }
   .section-imgs{
     width: auto;
   }
 }
 
 @media (max-width: 830px) {
+  .introducao{
+    gap: 50px;
+  }
   .introducao h1 {
     font-size: 3rem;
   }
@@ -286,6 +292,13 @@ ul{
 }
 
 @media (max-width: 660px) {
+  .header{
+    flex-direction: column;
+  }
+  .header-menu a{
+    background-color: white;
+    border-radius: 5px;
+  }
   .foto-perfil{
     width: 200px;
     height: 300px;
@@ -318,13 +331,6 @@ ul{
 @media (max-width: 430px) {
   .foto-perfil{
     display: none;
-  }
-  .header{
-    flex-direction: column;
-  }
-  .header-menu a{
-    background-color: white;
-    border-radius: 5px;
   }
   .introducao span::before {
     width: 50px;

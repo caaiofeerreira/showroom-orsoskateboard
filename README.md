@@ -8,3 +8,6 @@ Nosso compromisso com a ORSO SKATEBOARD permanece forte, alimentando nossa paix√
 Nesse projeto, algumas ideias de camisetas.
 
 Linguagens: HTML e CSS.
+
+Projeto desenvolvido no Figma:
+![SHOWROOM - ORSO SKATEBOARD](https://github.com/caaiofeerreira/showroom-orsoskateboard/assets/156632875/81116208-d1e8-424d-9024-505255b0d361)
